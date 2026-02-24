@@ -25,6 +25,9 @@ jobs:
        run: mvn -B package --file pom.xml
 ```
 
+### Badge del estado
+[![Build and test of Java Project](https://github.com/daniel-rivera22/ems-cicd-github-actions/actions/workflows/main.yml/badge.svg)](https://github.com/daniel-rivera22/ems-cicd-github-actions/actions/workflows/main.yml)
+
 ## Parte 2 - CD 
 ### Resolución de problemas con la suscripción de Estudiantes 
 
