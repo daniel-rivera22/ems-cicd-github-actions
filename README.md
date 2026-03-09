@@ -28,7 +28,19 @@ jobs:
 ### Badge del estado
 [![Build and test of Java Project](https://github.com/daniel-rivera22/ems-cicd-github-actions/actions/workflows/main.yml/badge.svg)](https://github.com/daniel-rivera22/ems-cicd-github-actions/actions/workflows/main.yml)
 
-## Parte 2 - CD 
+## Parte 2 - CD
+
+### Comandos para asegurar el acceso a elementos
+
+```SHELL
+az provider register --namespace Microsoft.CloudShell
+az provider register --namespace Microsoft.Storage
+az provider register --namespace Microsoft.App
+az provider register --namespace Microsoft.ContainerRegistry
+az provider register --namespace Microsoft.OperationalInsights
+az provider register --namespace Microsoft.ManagedIdentity
+```
+
 ### Resolución de problemas con la suscripción de Estudiantes 
 
 Las suscripciones de Estudiante de forma aleaotoria tienen limitaciones:
