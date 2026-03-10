@@ -1,6 +1,6 @@
 # Pipeline de Integración Continua con GitHub Actions
 
-Repositorio para el laboratorio de CI con GitHub Actions
+Repositorio para el laboratorio de CI con GitHub Actions.
 
 ## Descripción del laboratorio
 
