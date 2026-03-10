@@ -112,7 +112,7 @@ jobs:
     if: startsWith(github.ref, 'refs/tags/v')
     needs: build_test
     runs-on: ubuntu-latest
-    environment: production
+    environment: prod
 
     env:
       ARM_USE_OIDC: true
